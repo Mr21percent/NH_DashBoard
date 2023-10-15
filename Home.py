@@ -5,7 +5,7 @@ import plotly.express as px
 from plotly.subplots import make_subplots
 import plotly.io as io
 
-st.title(" NH 투자증권 빅데이터 경진대회 CHART - by 차가운 자본주의" )
+st.title(" NH 투자증권 빅데이터 경진대회 CHART - by 차가운 자본시장" )
 
 chart_df = pd.read_csv("full_table.csv")
 chart_df = chart_df.set_index("Date")

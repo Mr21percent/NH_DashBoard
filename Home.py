@@ -7,7 +7,7 @@ import plotly.io as io
 
 st.title(" NH 투자증권 빅데이터 경진대회 CHART - by 차가운 자본주의" )
 
-chart_df = pd.read_csv("/workspaces/NH_DashBoard/full_table.csv")
+chart_df = pd.read_csv("full_table.csv")
 chart_df = chart_df.set_index("Date")
 chart_df.index = pd.to_datetime(chart_df.index)
 is_percent = 100

@@ -12,11 +12,11 @@ chart_df = chart_df.set_index("Date")
 chart_df.index = pd.to_datetime(chart_df.index)
 is_percent = 100
 
-st.subheader("일별, 장 시작 30분 수익률 비교)")
+st.subheader("일별, 장 시작 30분 수익률 비교")
 title_name = 'KOSPI'
 
 
-st.text("KOSPI (코스피지수 : KOSPI Index")
+st.text("KOSPI (코스피지수 : KOSPI Index)")
 main_fig = go.Figure(
     data = [
         go.Bar(
